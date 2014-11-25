@@ -17,6 +17,9 @@
         "mockery/mockery": "0.9.1"
     },
     "autoload": {
+        "files": [
+            "lib/Philasearch/HelperFunctions/global.php"
+        ],
         "psr-4": {
             "Philasearch\\": "lib/Philasearch"
         }
